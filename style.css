@@ -1,0 +1,32 @@
+html {
+    font-size: 10px;
+    background-color: beige;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.container {
+    border: 2px solid red;
+    background-color: red;
+    position: relative;
+    padding: 10px;
+    width: 800px;
+    height: 500px;
+
+    top: 100px;
+    left: 100px;
+}
+
+.box {
+    border: 2px solid orange;
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+}
